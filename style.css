@@ -1,0 +1,10 @@
+.viewPort{
+    overflow: hidden; 
+    position: relative;
+    width: 200px;
+    border: 2px solid black;
+    >img{
+        position: absolute;
+        image-rendering: pixelated;
+    }
+}
